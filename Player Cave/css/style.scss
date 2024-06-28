@@ -1,0 +1,115 @@
+$primary: #222;
+$secondary: #0dcaf0;
+$font1: "Orbitron", Inter, Arial;
+$font2: Arial, Tahoma;
+
+
+.navbar {
+    background-color: $primary;
+
+    .navbar-brand img {
+        height: 50px;
+    }
+
+    .nav-link {
+        font: 20px $font1;
+        color: #fff;
+        text-transform: uppercase;
+
+        &:hover {
+            color: $secondary;
+        }
+    }
+
+    .navbar-nav .nav-link.show {
+        color: $secondary;
+    }
+
+    .dropdown-menu {
+        background: $primary;
+        border-radius: 0;
+
+        .dropdown-item {
+            font: 18px $font1;
+            color: $secondary;
+            text-transform: uppercase;
+        }
+    }
+
+    .btn {
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+}
+
+body{
+    background-color: #222;
+    padding-top: 70px;
+}
+
+.custom-text-color {
+    color: $secondary;
+    text-transform: uppercase;
+    
+}
+
+.custom-form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        .custom-form-label {
+            font-weight: bold;
+            color: #495057;
+        }
+    
+        .custom-form-control {
+            border-radius: 4px;
+            border: 1px solid #ced4da;
+        }
+    
+        .custom-form-control:focus {
+            border-color: #80bdff;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }        
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+
+    .logo {
+        max-width: 150px;
+    }
+
+    .social-icons {
+        a {
+            color: #ffffff;
+            margin: 0 10px;
+            font-size: 1.5em;
+            transition: color 0.3s;
+            text-decoration: none;
+
+            &:hover {
+                color: #007bff;
+            }
+        }
+    }
+}
+
+.card {
+    margin-bottom: 25px;
+    background-color: $primary;
+    box-shadow: 0 0 15px #161616;
+    border-radius: 10px;
+    .card-text{
+        color: $secondary;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+}
+

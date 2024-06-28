@@ -1,0 +1,94 @@
+.navbar {
+  background-color: #222;
+}
+.navbar .navbar-brand img {
+  height: 50px;
+}
+.navbar .nav-link {
+  font: 20px "Orbitron", Inter, Arial;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar .nav-link:hover {
+  color: #0dcaf0;
+}
+.navbar .navbar-nav .nav-link.show {
+  color: #0dcaf0;
+}
+.navbar .dropdown-menu {
+  background: #222;
+  border-radius: 0;
+}
+.navbar .dropdown-menu .dropdown-item {
+  font: 18px "Orbitron", Inter, Arial;
+  color: #0dcaf0;
+  text-transform: uppercase;
+}
+.navbar .btn {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+body {
+  background-color: #222;
+  padding-top: 70px;
+}
+
+.custom-text-color {
+  color: #0dcaf0;
+  text-transform: uppercase;
+}
+
+.custom-form-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.custom-form-container .custom-form-label {
+  font-weight: bold;
+  color: #495057;
+}
+.custom-form-container .custom-form-control {
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+.custom-form-container .custom-form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+}
+.footer .logo {
+  max-width: 150px;
+}
+.footer .social-icons a {
+  color: #ffffff;
+  margin: 0 10px;
+  font-size: 1.5em;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+.footer .social-icons a:hover {
+  color: #007bff;
+}
+
+.card {
+  margin-bottom: 25px;
+  background-color: #222;
+  box-shadow: 0 0 15px #161616;
+  border-radius: 10px;
+}
+.card .card-text {
+  color: #0dcaf0;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */
